@@ -1,6 +1,14 @@
 import React, { Component } from "react";
 import "./Home.css";
 
+import {
+  API_URL,
+  API_KEY,
+  IMAGE_BASE_URL,
+  POSTER_SIZE,
+  BACKDROP_SIZE
+} from "../../config";
+
 import HeroImage from "../elements/HeroImage/HeroImage";
 import SearchBar from "../elements/SearchBar/SearchBar";
 import FourColGrid from "../elements/FourColGrid/FourColGrid";
@@ -9,7 +17,18 @@ import LoadMoreBtn from "../elements/LoadMoreBtn/LoadMoreBtn";
 import Spinner from "../elements/Spinner/Spinner";
 
 class Home extends Component {
-  state = {};
+  state = {
+    movies: [],
+    heroImage: null,
+    loading: false,
+    currentPage: 0,
+    totalPages: 0,
+    searchTerm: ""
+  };
+
+  componentDidMount() {
+    this.setState({ loading: true });
+  }
   render() {
     return (
       <div className="rmdb-home">

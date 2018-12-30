@@ -28,7 +28,9 @@ class Home extends Component {
 
   componentDidMount() {
     this.setState({ loading: true });
+    const endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US&page=1`;
   }
+
   render() {
     return (
       <div className="rmdb-home">

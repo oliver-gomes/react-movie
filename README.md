@@ -1,3 +1,9 @@
+# React Movie rmdb
+![project image](https://oliver-gomes.github.io/images/react-movie.png)
+## Table of Contents
+
+* [How to Load the App](#howtoloadtheapp)
+* [About the App](#about)
 * [How to Use the App](#how-to-use-the-app)
 
 ### How to Load the App
@@ -17,3 +23,4 @@ Modern fast movie database web app with React using The Movie DB API. All the ne
 - Bookmark and use the App at your own pace!
 
 # Hope You Enjoy the App !
+

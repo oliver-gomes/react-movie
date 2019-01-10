@@ -8,7 +8,7 @@
 
 ### How to Load the App
 ```
-git clone https://github.com/oliver-gomes/react-weatherapp.git
+git clone https://github.com/oliver-gomes/react-movie.git
 npm install
 npm start
 ```

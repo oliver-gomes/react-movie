@@ -1,6 +1,6 @@
 # React Movie rmdb
 [Link to App](http://phobic-heat.surge.sh/)
-![project image](https://oliver-gomes.github.io/images/react-movie.png)
+![project image](https://oliver-gomes.github.io/images/github%20images/react-movie.png)
 
 
 ## Table of Contents

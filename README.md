@@ -1,5 +1,7 @@
 # React Movie rmdb
 ![project image](https://oliver-gomes.github.io/images/react-movie.png)
+![project image](https://oliver-gomes.github.io/images/github%20images/movie-prev.gif)
+
 ## Table of Contents
 
 * [How to Load the App](#howtoloadtheapp)
